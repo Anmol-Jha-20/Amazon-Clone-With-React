@@ -1,0 +1,270 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+.first_address {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+
+.second_address {
+  font-size: 1rem;
+  margin-left: 3px;
+  color: white;
+}
+
+.add_icon {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.search_select {
+  background-color: #e6e6e6;
+  width: 52px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  height: 32px;
+}
+
+.header_search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+  margin-left: 13px;
+}
+
+.header_searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header_searchIcon {
+  padding: 5px;
+  height: 22px;
+  background-color: #cd9042;
+}
+@media (orientation: portrait) {
+  .header {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+  }
+  .header_optionBasket {
+    color: white;
+  }
+  .nav_lang {
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    display: none;
+  }
+  .nav_lang select option {
+    display: none;
+  }
+  .panel {
+    height: 100px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .panel_ops {
+    margin: 0px;
+  }
+  .panel_ops .one {
+    display: none;
+  }
+}
+
+.nav_lang {
+  background-color: #0f1111;
+  color: white;
+  border: none;
+  margin: 0px 0px 0px 1px;
+  padding: 0px 9px 5px;
+}
+
+.header_optionLineOne {
+  font-size: 14px;
+}
+
+.header_optionLineTwo {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 4px 9px 10px;
+}
+.header_optionBasket i {
+  font-size: 26px;
+}
+
+.header_basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  padding: 0.25rem 0.51rem 0.6rem;
+}
+
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.panel_ops p {
+  display: inline;
+  margin: 5px 0px 6px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.panel_ops {
+  width: 87%;
+  font-size: 0.85rem;
+  margin-right: 10px;
+}
+
+.panel_padding {
+  padding: 8px 9px;
+}
+
+.panel_all i {
+  margin-right: 4px;
+}
+
+/* Sidebar Navigation */
+#open-nav-sidebar {
+  cursor: pointer;
+}
+
+.sidebar-container-navigation {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 150;
+  background-color: transparent;
+  transform: translateX(-100%);
+  display: flex;
+  transition: transform 0.3s;
+}
+
+.slidebar-show {
+  transform: translateX(0%);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar-left-part {
+  background-color: white;
+  width: 365px;
+  height: 100%;
+  box-sizing: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.sidebar-top {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  padding-left: 30px;
+  background-color: rgb(19, 25, 33);
+  color: white;
+}
+
+.sidebar-top h2 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.sidebar-top i {
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.sidebar-item {
+  padding-left: 30px;
+  border-top: 1.5px solid #ccc;
+}
+
+.sidebar-item h2 {
+  font-size: 20px;
+  margin: 16.6px 0px;
+}
+
+.sidebar-item p {
+  color: rgb(65, 62, 62);
+  margin: 16px 0px;
+}
+
+#sidebar-navigation-close {
+  background-color: transparent;
+  align-self: flex-start;
+  font-size: 30px;
+  border: none;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.sidebar-wrap {
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+.space {
+  margin-bottom: 150px;
+}
