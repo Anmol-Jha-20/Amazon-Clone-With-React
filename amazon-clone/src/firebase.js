@@ -3,13 +3,13 @@
 
 // // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // const firebaseConfig = {
-//   apiKey: "AIzaSyBEAS7Hw06fiCvi5tvkC6otjssrCIY1XbQ",
-//   authDomain: "clone-7ffa7.firebaseapp.com",
-//   projectId: "clone-7ffa7",
-//   storageBucket: "clone-7ffa7.appspot.com",
-//   messagingSenderId: "471946209529",
-//   appId: "1:471946209529:web:5b208b9773fd3877609a28",
-//   measurementId: "G-M9BRJX3WTR",
+//   apiKey: "API_KEY",
+//   authDomain: "AUTH_DOMAIN",
+//   projectId: "PROJECT_ID",
+//   storageBucket: "STORAGE_BUCKET",
+//   messagingSenderId: "MESSAGING_SENDER_ID",
+//   appId: "APP_ID",
+//   measurementId: "MEASUREMENT_ID",
 // };
 
 // const firebaseApp = firebase.initializeApp(firebaseConfig);
@@ -25,13 +25,13 @@ import { getFirestore } from "firebase/firestore/lite";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBEAS7Hw06fiCvi5tvkC6otjssrCIY1XbQ",
-  authDomain: "clone-7ffa7.firebaseapp.com",
-  projectId: "clone-7ffa7",
-  storageBucket: "clone-7ffa7.appspot.com",
-  messagingSenderId: "471946209529",
-  appId: "1:471946209529:web:5b208b9773fd3877609a28",
-  measurementId: "G-M9BRJX3WTR",
+   apiKey: "API_KEY",
+   authDomain: "AUTH_DOMAIN",
+   projectId: "PROJECT_ID",
+   storageBucket: "STORAGE_BUCKET",
+   messagingSenderId: "MESSAGING_SENDER_ID",
+   appId: "APP_ID",
+   measurementId: "MEASUREMENT_ID",
 };
 
 const app = initializeApp(firebaseConfig);
